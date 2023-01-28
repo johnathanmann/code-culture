@@ -2,29 +2,24 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Footer from './Footer'
 import Home from './pages/Homepage';
-import Resume from './pages/Resume';
-import Portfolio from './pages/Portfolio';
-
-export default function PortfolioContainer() {
+import Technology from './pages/Technology';
+export default function Culture() {
   const [currentPage, setCurrentPage] = useState('Home');
-
-
   const renderPage = () => {
     if (currentPage === 'Home') {
-      return <Home />;
+      return <Home handlePageChange={handlePageChange}/>;
     }
     if (currentPage === 'Technology') {
-      return <Technology />;
+      return <Technology handlePageChange={handlePageChange}/>;
     }
   };
 
-  const handlePageChange = (page, technology) => setCurrentPage(page, technology);
+  const handlePageChange = (page) => setCurrentPage(page);
+
 
   return (
     <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}/>
       {renderPage()}
-      <Footer/>
     </div>
   );
 }
