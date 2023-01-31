@@ -2,8 +2,15 @@ import React, { useState } from 'react';
 import Footer from './Footer'
 import Home from './pages/Homepage';
 import Technology from './pages/Technology';
-import { Nav, Navbar} from 'react-bootstrap';
+
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
 import "../styles/navtabs.css";
+
+
 export default function Culture() {
   const [currentPage, setCurrentPage] = useState('Home');
 
@@ -27,26 +34,21 @@ export default function Culture() {
 
   const techPageChange  = (tech) => {
     handlePageChange('Technology');
-    changeState(tech)
+    changeState(tech);
   }
 
   return (
     <div>
-      <Navbar className="navbar navbar-expand-lg navbar-dark" collapseOnSelect  expand="lg">
-            <a className="navbar-brand"><h1>Code Culture</h1></a>
-          <Navbar.Toggle />
-          <Navbar.Collapse>
-            <Nav className="ms-auto d-block">
-              <ul>
-                <li>
-                <Nav.Item>
-                <a onClick={()=> techPageChange('react')}>React Page</a>
-              </Nav.Item>
-              </li>
-              </ul>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
+      <Navbar>
+      <Container>
+        <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-end">
+          <Navbar.Text><button onClick={()=> techPageChange('JS')}>React Page</button>
+          </Navbar.Text>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
       {renderPage()}
     </div>
   );
