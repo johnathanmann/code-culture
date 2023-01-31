@@ -1,4 +1,3 @@
-import {useState} from 'react';
 import techTypes from '../../assets/tech.json'
 
 export default function Technology(props){

@@ -1,10 +1,122 @@
 [
     {
-        "name": "React",
-        "type": "JavaScript Framework"
+        "name": "HTML",
+        "docs": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "icon": "",
+        "type": "Language",
+        "release": "",
+        "description": ""
     },
     {
-        "name": "JS",
-        "type": "JavaScript Framework"
+        "name": "CSS",
+        "docs": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "icon": "",
+        "type": "Language",
+        "release": "",
+        "description": ""
+    },
+    {
+        "name": "JavaScript",
+        "docs": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "icon": "",
+        "type": "Language",
+        "release": "",
+        "description": ""
+    },
+    {
+        "name": "Python",
+        "docs": "https://www.python.org/",
+        "icon": "",
+        "type": "Language",
+        "release": "",
+        "description": ""
+    },
+    {
+        "name": "PHP",
+        "docs": "https://www.php.net/",
+        "icon": "",
+        "type": "Language",
+        "release": "",
+        "description": ""
+    },
+    {
+        "name": "TypeScript",
+        "docs": "https://www.typescriptlang.org/",
+        "icon": "",
+        "type": "Language",
+        "release": "",
+        "description": ""
+    },
+    {
+        "name": "React",
+        "docs": "https://reactjs.org/",
+        "icon": "",
+        "type": "JavaScript Library",
+        "release": "",
+        "description": ""
+    },
+    {
+        "name": "Angular",
+        "docs": "https://angular.io/",
+        "icon": "",
+        "type": "JavaScript Library",
+        "release": "",
+        "description": ""
+    },
+    {
+        "name": "Vue",
+        "docs": "https://vuejs.org/",
+        "icon": "",
+        "type": "JavaScript Library",
+        "release": "",
+        "description": ""
+    },
+    {
+        "name": "Ruby on Rails",
+        "docs": "https://rubyonrails.org/",
+        "icon": "",
+        "type": "JavaScript Library",
+        "release": "",
+        "description": ""
+    },
+    {
+        "name": "JQuery",
+        "docs": "https://jquery.com/",
+        "icon": "",
+        "type": "JavaScript Library",
+        "release": "",
+        "description": ""
+    },
+    {
+        "name": "Bootstrap",
+        "docs": "https://getbootstrap.com/",
+        "icon": "",
+        "type": "CSS Framework",
+        "release": "",
+        "description": ""
+    },
+    {
+        "name": "Tailwind",
+        "docs": "https://tailwindcss.com/",
+        "icon": "",
+        "type": "CSS Framework",
+        "release": "",
+        "description": ""
+    },
+    {
+        "name": "Materialize",
+        "docs": "https://materializecss.com/",
+        "icon": "",
+        "type": "CSS Framework",
+        "release": "",
+        "description": ""
+    },
+    {
+        "name": "Bulma",
+        "docs": "https://bulma.io/",
+        "icon": "",
+        "type": "CSS Framework",
+        "release": "",
+        "description": ""
     }
 ]
