@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Rubik;
+    src: url(../assets/fonts/RubikMonoOne-Regular.ttf);
+}
+
+:root{
+    --beige : #FCEFE1;
+}
+
+body{
+    background-color: var(--beige);
+}
+
+.header{
+    font-family: Rubik;
+}

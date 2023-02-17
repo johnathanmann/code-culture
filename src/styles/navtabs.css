@@ -1,15 +1,7 @@
-@font-face {
-    font-family: Rubik;
-    src: url(../assets/fonts/RubikMonoOne-Regular.ttf);
-}
-
-body{
-    height: 2500px;
-}
-
 #navbar{
     width: 100%;
     border-bottom: solid 2px #000;
+    background-color: var(--beige);
 }
 
 .navbar-btn{
@@ -18,5 +10,9 @@ body{
 
 .nav-link{
     margin: 0px 10px;
+}
+
+.dropdown-menu{
+
 }
 

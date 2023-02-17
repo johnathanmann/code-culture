@@ -8,6 +8,8 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
+
+import "../styles/styles.css";
 import "../styles/navtabs.css";
 
 export default function Culture() {

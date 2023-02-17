@@ -1,0 +1,41 @@
+#homepage {
+    display: flex;
+    width: 100%;
+}
+
+#homepage img{
+    margin: 20px auto;
+    height: 70vh;
+}
+
+#header-background{
+    width: 100vw;
+    background-image: url(../assets/imgs/headerBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#homepage-header{
+    height: 100vh;
+    background-image: url(../assets/imgs/computer.png);
+    background-position: 75%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#homepage-header1{
+    font-family: Rubik;
+    font-size: 100px;
+    text-shadow: -10px 10px var(--beige);
+    margin: 30px;
+}
+
+#homepage-header2{
+    font-family: Rubik;
+    text-shadow: -5px 5px var(--beige);
+    margin: 30px;
+    font-size: 50px;
+    position: absolute;
+    bottom: 10vh;
+    right: 0;
+}
