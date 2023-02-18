@@ -1,14 +1,5 @@
-#homepage {
-    display: flex;
-    width: 100%;
-}
-
-#homepage img{
-    margin: 20px auto;
-    height: 70vh;
-}
-
 #header-background{
+    display: flex;
     width: 100vw;
     background-image: url(../assets/imgs/headerBackground.png);
     background-size: cover;

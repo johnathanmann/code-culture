@@ -9,8 +9,22 @@
 
 body{
     background-color: var(--beige);
+    overflow-x: hidden;
 }
 
 .header{
     font-family: Rubik;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--beige); 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #333333; 
+    border-radius: 10px;
+  }
