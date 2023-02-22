@@ -3,28 +3,30 @@
     src: url(../assets/fonts/RubikMonoOne-Regular.ttf);
 }
 
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../assets/fonts/Roboto-Medium.ttf);
+}
+
 :root{
     --beige : #FCEFE1;
+    --pink : #FD7BB7;
+    --orange : #FB7035;
+    --yellow : #F1CC25;
+    --green : #7ECF59;
+    --blue : #6AB5EE;
 }
 
 body{
-    background-color: var(--beige);
     overflow-x: hidden;
 }
 
 .header{
     font-family: Rubik;
+    font-size: 50px;
 }
 
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: var(--beige); 
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: #333333; 
-    border-radius: 10px;
-  }
+.text{
+  font-family: Roboto-Medium;
+  font-size: 25px;
+}

@@ -7,6 +7,7 @@
 }
 
 #homepage-header{
+    width: 100vw;
     height: 100vh;
     background-image: url(../assets/imgs/computer.png);
     background-position: 75%;
@@ -29,4 +30,80 @@
     position: absolute;
     bottom: 10vh;
     right: 0;
+}
+
+#intro{
+    margin: 100px 40px;
+}
+
+#header{
+    margin: 50px auto;
+}
+
+.pink{
+    color: var(--pink);
+}
+
+#marquees{
+    width: 100vw;
+}
+
+.marquee {
+    position: relative;
+    overflow: hidden;
+    --offset: 20vw;
+    --move-initial: calc(-25% + var(--offset));
+    --move-final: calc(-50% + var(--offset));
+    border-top: 2px solid #000;
+}
+
+.marquee__inner {
+    width: fit-content;
+    display: flex;
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee 5s linear infinite;
+    animation-play-state: paused;
+}
+
+.marquee span {
+    font-family: Rubik;
+    font-size: 75px;
+    margin: 3vh 2vw;
+}
+
+.marquee:hover .marquee__inner {
+    animation-play-state: running;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(var(--move-initial), 0, 0);
+    }
+
+    100% {
+        transform: translate3d(var(--move-final), 0, 0);
+    }
+}
+
+#language{
+    color: var(--orange);
+}
+
+#framework{
+    color: var(--green);
+}
+
+#library{
+    color: var(--yellow);
+    border-bottom: 2px solid #000;
+}
+
+#phone{
+    margin: 100px auto 0px auto;
+}
+
+#info {
+    font-family: Rubik;
+    font-size: 25px;
 }

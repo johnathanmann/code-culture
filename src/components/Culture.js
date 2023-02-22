@@ -13,6 +13,7 @@ import "../styles/styles.css";
 import "../styles/navtabs.css";
 
 export default function Culture() {
+  document.body.style = 'background: #FCEFE1;';
   const [currentPage, setCurrentPage] = useState('Home');
 
   const [currentTech, setCurrentTech] = useState({tech:""})
@@ -92,6 +93,7 @@ export default function Culture() {
       </Container>
     </Navbar>
       {renderPage()}
+      <Footer/>
     </div>
   );
 }
