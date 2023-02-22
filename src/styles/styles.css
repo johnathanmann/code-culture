@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: Roboto-Medium;
-  src: url(../assets/fonts/Roboto-Medium.ttf);
+  font-family: Roboto-Bold;
+  src: url(../assets/fonts/Roboto-Bold.ttf);
 }
 
 :root{
@@ -27,6 +27,6 @@ body{
 }
 
 .text{
-  font-family: Roboto-Medium;
+  font-family: Roboto-Bold;
   font-size: 25px;
 }

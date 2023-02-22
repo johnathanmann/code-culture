@@ -17,6 +17,10 @@
     background-color: var(--beige);
 }
 
+.navbar{
+  font-family: Roboto-Bold;
+}
+
 .navbar-btn{
     all: unset;
 }
@@ -26,6 +30,14 @@
 }
 
 .dropdown-menu{
-
+  border-radius: 0px !important;
+  background-color: var(--beige) !important;
 }
 
+.dropdown-item:active, .dropdown-item:hover{
+  background-color: var(--beige)!important;
+}
+
+.navbar-btn:hover{
+  transform: scale(1.1);
+}
