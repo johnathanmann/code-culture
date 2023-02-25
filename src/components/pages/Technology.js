@@ -7,11 +7,11 @@ export default function Technology(props){
         return i.name === techName;
       });
 
-      console.log((wantedTech[0].name))
     return(
         <div>
            <h1>tech page</h1>
            <p>{wantedTech[0].name}</p>
         </div>
     )
+    
 }
