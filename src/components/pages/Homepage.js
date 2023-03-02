@@ -3,29 +3,6 @@ import "../../styles/homepage.css";
 import phone from "../../assets/imgs/phone.png";
 import jQuery from 'jquery';
 
-(function ($) {
-    $(document).ready(function(){
-
-    // hide .navbar first
-    $(".navbar").hide();
-
-    // fade in .navbar
-    $(function () {
-      $(window).scroll(function () {
-              // set distance user needs to scroll before we fadeIn navbar
-        if ($(this).scrollTop() > 100) {
-          $('.navbar').fadeIn();
-        } else {
-          $('.navbar').fadeOut();
-        }
-      });
-
-
-    });
-
-  });
-    }(jQuery));
-
 export default function Homepage({handlePageChange}){
 const [currentTime, setCurrentTime] = useState();
 
@@ -53,6 +30,16 @@ const updateClock = () => {
   setCurrentTime(d+":"+h+":"+m+":"+s);
 }
 timer = setInterval(updateClock, 1000);
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-100px";
+  }
+}
 
 useEffect(()=>{
     updateClock();

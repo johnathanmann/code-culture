@@ -7,6 +7,7 @@ import techTypes from '../assets/tech.json'
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import jQuery from 'jquery';
 
 
 import "../styles/styles.css";
@@ -49,6 +50,8 @@ export default function Culture() {
     return i.type ===  "JavaScript Library";
   });
 
+
+
   return (
     <div>
       <Navbar id="navbar" className='fixed-top'>
@@ -63,12 +66,12 @@ export default function Culture() {
             </NavDropdown>
             <NavDropdown title="CSS Framework" id="basic-nav-dropdown">
             {frameworks.map((framework, index)=>{
-            return <NavDropdown.Item><button className="navbar-btn" onClick={()=> techPageChange(framework[index].name)}>{frameworks[index].name}</button></NavDropdown.Item>
+            return <NavDropdown.Item><button className="navbar-btn" onClick={()=> techPageChange(frameworks[index].name)}>{frameworks[index].name}</button></NavDropdown.Item>
             })}
             </NavDropdown>
           <NavDropdown title="JavaScript Library" id="basic-nav-dropdown">
           {libraries.map((library, index)=>{
-            return <NavDropdown.Item><button className="navbar-btn" onClick={()=> techPageChange(library[index].name)}>{libraries[index].name}</button></NavDropdown.Item>
+            return <NavDropdown.Item><button className="navbar-btn" onClick={()=> techPageChange(libraries[index].name)}>{libraries[index].name}</button></NavDropdown.Item>
             })}
             </NavDropdown>
         </Navbar.Collapse>

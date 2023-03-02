@@ -15,6 +15,10 @@
     width: 100%;
     border-bottom: solid 2px #000;
     background-color: var(--beige);
+    position: fixed;
+    top: -100px;
+    width: 100%;
+    transition: top 0.3s;
 }
 
 .navbar{
