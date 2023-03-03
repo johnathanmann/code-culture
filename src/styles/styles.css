@@ -30,3 +30,19 @@ body{
   font-family: Roboto-Bold;
   font-size: 25px;
 }
+
+.pink{
+  color: var(--pink);
+}
+
+.green{
+  color: var(--green);
+}
+
+.yellow{
+  color: var(--yellow);
+}
+
+.orange{
+  color: var(--orange);
+}

@@ -44,10 +44,10 @@ export default function Culture() {
     return i.type ===  "Language";
   });
   const frameworks = techTypes.filter(function(i) {
-    return i.type ===  "CSS Framework";
+    return i.type ===  "CSS-Framework";
   });
   const libraries = techTypes.filter(function(i) {
-    return i.type ===  "JavaScript Library";
+    return i.type ===  "JavaScript-Library";
   });
 
 

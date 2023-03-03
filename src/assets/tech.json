@@ -43,7 +43,7 @@
         "name": "React",
         "docs": "https://reactjs.org/",
         "icon": "",
-        "type": "JavaScript Library",
+        "type": "JavaScript-Library",
         "release": "2013",
         "description": "React is an open source JavaScript library used to build dynamic user interfaces. You are currently reading this on a website powered by React. This component based library that is maintained by Facebook makes passing data through a site seamless and efficient. Using all the lovely aspects of React: JSX, components, props, state, etc, sites are able to provide a much more concise programming experience than vanilla JS would. The concise development experience results in an easy to run and navigate user experience. "
     },
@@ -51,7 +51,7 @@
         "name": "Angular",
         "docs": "https://angular.io/",
         "icon": "",
-        "type": "JavaScript Library",
+        "type": "JavaScript-Library",
         "release": "2010",
         "description": "Angular is a Typescript framework that assists in creating single page applications. Maintained by Google themselves this framework is based on typescript. Angular is different from AngularJS which is based on JavaScript. This framework is revered for its two way data binding which allows the updating of the model and the view more efficiently then a one way data binding. "
     },
@@ -59,7 +59,7 @@
         "name": "Vue",
         "docs": "https://vuejs.org/",
         "icon": "",
-        "type": "JavaScript Library",
+        "type": "JavaScript-Library",
         "release": "",
         "description": ""
     },
@@ -67,7 +67,7 @@
         "name": "Ruby on Rails",
         "docs": "https://rubyonrails.org/",
         "icon": "",
-        "type": "JavaScript Library",
+        "type": "JavaScript-Library",
         "release": "",
         "description": ""
     },
@@ -75,7 +75,7 @@
         "name": "JQuery",
         "docs": "https://jquery.com/",
         "icon": "",
-        "type": "JavaScript Library",
+        "type": "JavaScript-Library",
         "release": "",
         "description": ""
     },
@@ -83,7 +83,7 @@
         "name": "Bootstrap",
         "docs": "https://getbootstrap.com/",
         "icon": "",
-        "type": "CSS Framework",
+        "type": "CSS-Framework",
         "release": "",
         "description": ""
     },
@@ -91,7 +91,7 @@
         "name": "Tailwind",
         "docs": "https://tailwindcss.com/",
         "icon": "",
-        "type": "CSS Framework",
+        "type": "CSS-Framework",
         "release": "",
         "description": ""
     },
@@ -99,7 +99,7 @@
         "name": "Materialize",
         "docs": "https://materializecss.com/",
         "icon": "",
-        "type": "CSS Framework",
+        "type": "CSS-Framework",
         "release": "",
         "description": ""
     },
@@ -107,7 +107,7 @@
         "name": "Bulma",
         "docs": "https://bulma.io/",
         "icon": "",
-        "type": "CSS Framework",
+        "type": "CSS-Framework",
         "release": "",
         "description": ""
     }

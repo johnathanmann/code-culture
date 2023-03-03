@@ -9,7 +9,6 @@
 .description{
     font-size: 20px;
     padding: 20px;
-    background: var(--pink);
     border: 1px solid #000000;
     border-radius: 15px;
     box-shadow: 10px 10px #FFF, 
@@ -17,6 +16,60 @@
 }
 
 #technology{
-    margin: 100px auto ;
-    display: flex;
+    margin: 100px 100px ;
+    display: block;
+}
+
+#learn{
+    margin: 50px;
+}
+
+.content-card{
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    width: 15vw;
+    background-color: var(--beige);
+    display: table-cell;
+}
+
+.content-card img{
+    height: 20vh;
+}
+
+@media (max-width: 1440px){
+    .content-card img{
+        height: 10vh;
+    }
+}
+
+@media (max-width: 768px){
+    .content-card{
+        margin: 20px auto;
+        width: 40vw;
+    }
+}
+
+.Language .header{
+    color: var(--orange);
+}
+
+.Language .description {
+    background: var(--orange);
+}
+
+.JavaScript-Library .header{
+    color: var(--green);
+}
+
+.JavaScript-Library .description {
+    background: var(--green);
+}
+
+.CSS-Framework .header{
+    color: var(--yellow);
+}
+
+.CSS-Framework .description {
+    background: var(--yellow);
 }
