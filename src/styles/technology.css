@@ -2,23 +2,23 @@
     top: 0px;
 }
 
+#technology{
+    margin-top: 50px;
+}
+
 .subheading{
     color: rgb(97, 97, 97);
     margin-left: 50px;
 }
 
 .description{
-    margin: 20px;
+    margin: 50px;
     font-size: 20px;
     padding: 20px;
     border: 1px solid #000000;
     border-radius: 15px;
     box-shadow: 10px 10px #FFF, 
     10px 10px 0px 1px #000;
-}
-
-#technology{
-    display: block;
 }
 
 #tech-name{
@@ -30,25 +30,23 @@
     margin: 50px;
 }
 
-.content-card{
+.tech-link{
+    width: 50vw;
+    border-bottom: 1px solid #000;
     margin: auto;
-    border-radius: 15px;
-    border: 1px solid #000000;
-    width: 15vw;
-    background-color: var(--beige);
-    display: table-cell;
 }
 
-
-@media (max-width: 1440px){
-
+.tech-link img{
+    height: 100px;
+    vertical-align: middle;
 }
 
-@media (max-width: 768px){
-    .content-card{
-        margin: 20px auto;
-        width: 40vw;
-    }
+.tech-link a{
+    all: unset;
+    font-size: 35px;
+    vertical-align: middle;
+    color: rgb(97, 97, 97);
+    font-family: Roboto-bold;
 }
 
 .Language .header{

@@ -51,37 +51,30 @@ export default function Technology(props){
 
     return(
         <div className={wantedTech[0].type}>
-            <div className='container' id="technology">
+            <div id="technology">
                 <div className='row'>
                     <div className='col-lg-6 '>
                     <h1 className='header' id="tech-name">{wantedTech[0].name}</h1>
                         <p className='subheading text '>Initial Release: {wantedTech[0].release}</p>
-                        <p><a className='subheading text' target="_blank" href={wantedTech[0].docs}>Documentation</a></p>
+                        <p><a className='subheading text' target="_blank" rel="noreferrer" href={wantedTech[0].docs}>Documentation</a></p>
                     </div>
                     <div className='col-lg-6'>
                         <p className='description'>{wantedTech[0].description}</p>
                     </div>
                 </div>
-                <div className='row text-center' id="learn">
-                <h1 className='header'>Learn More</h1>
-                    <div className='col-md-4 d-flex'>
-                        <div className='content-card'>
-                            <img className="img-fluid" alt="Microphone icon" src={microphone}/>
-                            <h1>Podcast</h1>
-                        </div>
+                <div id="learn">
+                <h1 className='header text-center'>Learn More</h1>
+                <div id='links'>
+                    <div className='tech-link'>
+                        <img className="img-fluid" alt="Article icon" src={article}/> <a className='link-type' target="_blank" rel="noreferrer" href={wantedTech[0].article}>Article</a>
                     </div>
-                    <div className='col-md-4 d-flex'>
-                        <div className='content-card'>
-                            <img className="img-fluid" alt="Play button icon" src={play}/>
-                            <h1>Video</h1>
-                        </div>
+                    <div className='tech-link'>
+                        <img className="img-fluid" alt="Microphone icon" src={microphone}/> <a className='link-type' target="_blank" rel="noreferrer" href={wantedTech[0].podcast}>Podcast</a>
                     </div>
-                    <div className='col-md-4 d-flex'>
-                        <div className='content-card'>
-                            <img className="img-fluid" alt="Article icon" src={article}/>
-                            <h1>Article</h1>
-                        </div>
+                    <div className='tech-link'>
+                        <img className="img-fluid" alt="Video play icon" src={play}/> <a className='link-type' target="_blank" rel="noreferrer" href={wantedTech[0].video}>Video</a>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
