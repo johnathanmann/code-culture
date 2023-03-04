@@ -34,7 +34,7 @@
 }
 
 .dropdown-menu{
-  border-radius: 0px !important;
+  border-radius: 15px !important;
   background-color: var(--beige) !important;
 }
 

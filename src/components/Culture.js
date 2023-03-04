@@ -4,10 +4,11 @@ import Home from './pages/Homepage';
 import Technology from './pages/Technology';
 import techTypes from '../assets/tech.json'
 
+import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import jQuery from 'jquery';
+import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 
 
 import "../styles/styles.css";
@@ -54,11 +55,12 @@ export default function Culture() {
 
   return (
     <div>
-      <Navbar id="navbar" className='fixed-top'>
+      <Navbar expand="lg" id="navbar">
       <Container>
-        <Navbar.Brand><button className="navbar-btn" onClick={()=> handlePageChange('Home')}>Code Culture</button></Navbar.Brand>
-        <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
+      <Navbar.Brand><button className="navbar-btn" onClick={()=> handlePageChange('Home')}>Code Culture</button></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav  justify-content-end">
+          <Nav >
           <NavDropdown title="Languages" id="basic-nav-dropdown">
           {languages.map((language, index)=>{
             return <NavDropdown.Item><button className="navbar-btn" onClick={()=> techPageChange(languages[index].name)}>{languages[index].name}</button></NavDropdown.Item>
@@ -74,9 +76,12 @@ export default function Culture() {
             return <NavDropdown.Item><button className="navbar-btn" onClick={()=> techPageChange(libraries[index].name)}>{libraries[index].name}</button></NavDropdown.Item>
             })}
             </NavDropdown>
+          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
+
+      
       {renderPage()}
       <Footer/>
     </div>
