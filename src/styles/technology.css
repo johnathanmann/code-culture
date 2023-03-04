@@ -4,9 +4,11 @@
 
 .subheading{
     color: rgb(97, 97, 97);
+    margin-left: 50px;
 }
 
 .description{
+    margin: 20px;
     font-size: 20px;
     padding: 20px;
     border: 1px solid #000000;
@@ -16,9 +18,13 @@
 }
 
 #technology{
-    margin: 100px 100px ;
     display: block;
 }
+
+#tech-name{
+    margin: 100px 50px 0px 50px;
+}
+
 
 #learn{
     margin: 50px;
@@ -33,14 +39,9 @@
     display: table-cell;
 }
 
-.content-card img{
-    height: 20vh;
-}
 
 @media (max-width: 1440px){
-    .content-card img{
-        height: 10vh;
-    }
+
 }
 
 @media (max-width: 768px){

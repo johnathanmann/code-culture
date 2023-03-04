@@ -59,7 +59,7 @@ export default function Culture() {
       <Container>
       <Navbar.Brand><button className="navbar-btn" onClick={()=> handlePageChange('Home')}>Code Culture</button></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav  justify-content-end">
+        <Navbar.Collapse  className="justify-content-end" id="basic-navbar-nav">
           <Nav >
           <NavDropdown title="Languages" id="basic-nav-dropdown">
           {languages.map((language, index)=>{

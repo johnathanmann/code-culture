@@ -54,7 +54,7 @@ export default function Technology(props){
             <div className='container' id="technology">
                 <div className='row'>
                     <div className='col-lg-6 '>
-                    <h1 className='header'>{wantedTech[0].name}</h1>
+                    <h1 className='header' id="tech-name">{wantedTech[0].name}</h1>
                         <p className='subheading text '>Initial Release: {wantedTech[0].release}</p>
                         <p><a className='subheading text' target="_blank" href={wantedTech[0].docs}>Documentation</a></p>
                     </div>
@@ -66,19 +66,19 @@ export default function Technology(props){
                 <h1 className='header'>Learn More</h1>
                     <div className='col-md-4 d-flex'>
                         <div className='content-card'>
-                            <img alt="Microphone icon" src={microphone}/>
+                            <img className="img-fluid" alt="Microphone icon" src={microphone}/>
                             <h1>Podcast</h1>
                         </div>
                     </div>
                     <div className='col-md-4 d-flex'>
                         <div className='content-card'>
-                            <img alt="Play button icon" src={play}/>
+                            <img className="img-fluid" alt="Play button icon" src={play}/>
                             <h1>Video</h1>
                         </div>
                     </div>
                     <div className='col-md-4 d-flex'>
                         <div className='content-card'>
-                            <img alt="Article icon" src={article}/>
+                            <img className="img-fluid" alt="Article icon" src={article}/>
                             <h1>Article</h1>
                         </div>
                     </div>
