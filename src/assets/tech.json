@@ -2,15 +2,16 @@
     {
         "name": "HTML",
         "docs": "https://developer.mozilla.org/en-US/docs/Web/HTML",
-        "icon": "",
         "type": "Language",
         "release": "1993",
-        "description": "HTML (HyperText Markup Language) is the scripting language used to display content in the web browser. HTML uses a series of elements to tell the browser how to structure the desired content and its meaning. These elements work by wrapping and enclosing content. Wrapping a phrase in an <h1> tag will create a large heading while a <p> tag will create smaller paragraph style text. You're even reading a <p> tag right now! Currently the web uses HTML5."
+        "description": "HTML (HyperText Markup Language) is the scripting language used to display content in the web browser. HTML uses a series of elements to tell the browser how to structure the desired content and its meaning. These elements work by wrapping and enclosing content. Wrapping a phrase in an <h1> tag will create a large heading while a <p> tag will create smaller paragraph style text. You're even reading a <p> tag right now! Currently the web uses HTML5.",
+        "podcast": "",
+        "article": "",
+        "video": ""
     },
     {
         "name": "CSS",
         "docs": "https://developer.mozilla.org/en-US/docs/Web/CSS",
-        "icon": "",
         "type": "Language",
         "release": "1996",
         "description": "CSS (Cascading Style Sheets) is a stylesheet language that brings a bit of beauty to your HTML page. CSS tells the browser how it should display content. This may sound similar to HTML the difference being HTML is the structure while CSS is the presentation. CSS is what brings you thoughts like background colors and fun animations. Currently the web uses CSS3."
@@ -18,97 +19,121 @@
     {
         "name": "JavaScript",
         "docs": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        "icon": "",
         "type": "Language",
         "release": "1995",
-        "description": "JavaScript or ECMAScript is the programming language of the web. JavaScript is unrelated to the Java programming language. JavaScript is what allows this site to dynamically change content on the screen. When you go to a calculator website it's what does your calculations. On your favorite social media it allows you to log in and log out of your account. "
+        "description": "JavaScript or ECMAScript is the programming language of the web. JavaScript is unrelated to the Java programming language. JavaScript is what allows this site to dynamically change content on the screen. When you go to a calculator website it's what does your calculations. On your favorite social media it allows you to log in and log out of your account. ",
+        "podcast": "",
+        "article": "",
+        "video": ""
     },
     {
         "name": "PHP",
         "docs": "https://www.php.net/",
-        "icon": "",
         "type": "Language",
         "release": "1995",
-        "description": "Hypertext Preprocessor is another scripting language on the web. PHP is an open source server side scripting language. PHP is written in a .php file but displays content in the browser via HTML. This scripting language can collect and send information, interact with a database, and so much more. Before getting started with PHP it is recommended that you have some understanding of HTML, CSS, and JavaScript."
+        "description": "Hypertext Preprocessor is another scripting language on the web. PHP is an open source server side scripting language. PHP is written in a .php file but displays content in the browser via HTML. This scripting language can collect and send information, interact with a database, and so much more. Before getting started with PHP it is recommended that you have some understanding of HTML, CSS, and JavaScript.",
+        "podcast": "",
+        "article": "",
+        "video": ""
     },
     {
         "name": "TypeScript",
         "docs": "https://www.typescriptlang.org/",
-        "icon": "",
         "type": "Language",
         "release": "2012",
-        "description": "Typescript builds on JavaScript and adds some new features that enhance the developing experience. The main benefit to TypeScript is the real time type checking. Type checking being the process of checking that code is both doing what it should without being nonsensical. A type check would for example flag an equation that was trying to multiply an integer by a string. This strongly typed language makes recognizing errors and solving them easier."
+        "description": "Typescript builds on JavaScript and adds some new features that enhance the developing experience. The main benefit to TypeScript is the real time type checking. Type checking being the process of checking that code is both doing what it should without being nonsensical. A type check would for example flag an equation that was trying to multiply an integer by a string. This strongly typed language makes recognizing errors and solving them easier.",
+        "podcast": "",
+        "article": "",
+        "video": ""
     },
     {
         "name": "React",
         "docs": "https://reactjs.org/",
-        "icon": "",
         "type": "JavaScript-Library",
         "release": "2013",
-        "description": "React is an open source JavaScript library used to build dynamic user interfaces. You are currently reading this on a website powered by React. This component based library that is maintained by Facebook makes passing data through a site seamless and efficient. Using all the lovely aspects of React: JSX, components, props, state, etc, sites are able to provide a much more concise programming experience than vanilla JS would. The concise development experience results in an easy to run and navigate user experience. "
+        "description": "React is an open source JavaScript library used to build dynamic user interfaces. You are currently reading this on a website powered by React. This component based library that is maintained by Facebook makes passing data through a site seamless and efficient. Using all the lovely aspects of React: JSX, components, props, state, etc, sites are able to provide a much more concise programming experience than vanilla JS would. The concise development experience results in an easy to run and navigate user experience. ",
+        "podcast": "",
+        "article": "",
+        "video": ""
     },
     {
         "name": "Angular",
         "docs": "https://angular.io/",
-        "icon": "",
         "type": "JavaScript-Library",
         "release": "2010",
-        "description": "Angular is a Typescript framework that assists in creating single page applications. Maintained by Google themselves this framework is based on typescript. Angular is different from AngularJS which is based on JavaScript. This framework is revered for its two way data binding which allows the updating of the model and the view more efficiently then a one way data binding. "
+        "description": "Angular is a Typescript framework that assists in creating single page applications. Maintained by Google themselves this framework is based on typescript. Angular is different from AngularJS which is based on JavaScript. This framework is revered for its two way data binding which allows the updating of the model and the view more efficiently then a one way data binding. ",
+        "podcast": "",
+        "article": "",
+        "video": ""
     },
     {
         "name": "Vue",
         "docs": "https://vuejs.org/",
-        "icon": "",
         "type": "JavaScript-Library",
         "release": "",
-        "description": ""
+        "description": "",
+        "podcast": "",
+        "article": "",
+        "video": ""
     },
     {
         "name": "Ruby on Rails",
         "docs": "https://rubyonrails.org/",
-        "icon": "",
         "type": "JavaScript-Library",
         "release": "",
-        "description": ""
+        "description": "",
+        "podcast": "",
+        "article": "",
+        "video": ""
     },
     {
         "name": "JQuery",
         "docs": "https://jquery.com/",
-        "icon": "",
         "type": "JavaScript-Library",
         "release": "",
-        "description": ""
+        "description": "",
+        "podcast": "",
+        "article": "",
+        "video": ""
     },
     {
         "name": "Bootstrap",
         "docs": "https://getbootstrap.com/",
-        "icon": "",
         "type": "CSS-Framework",
         "release": "",
-        "description": ""
+        "description": "",
+        "podcast": "",
+        "article": "",
+        "video": ""
     },
     {
         "name": "Tailwind",
         "docs": "https://tailwindcss.com/",
-        "icon": "",
         "type": "CSS-Framework",
         "release": "",
-        "description": ""
+        "description": "",
+        "podcast": "",
+        "article": "",
+        "video": ""
     },
     {
         "name": "Materialize",
         "docs": "https://materializecss.com/",
-        "icon": "",
         "type": "CSS-Framework",
         "release": "",
-        "description": ""
+        "description": "",
+        "podcast": "",
+        "article": "",
+        "video": ""
     },
     {
         "name": "Bulma",
         "docs": "https://bulma.io/",
-        "icon": "",
         "type": "CSS-Framework",
         "release": "",
-        "description": ""
+        "description": "",
+        "podcast": "",
+        "article": "",
+        "video": ""
     }
 ]

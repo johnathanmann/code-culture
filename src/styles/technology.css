@@ -41,7 +41,7 @@
     vertical-align: middle;
 }
 
-.tech-link a{
+.tech-link a, .tech-link a:hover{
     all: unset;
     font-size: 35px;
     vertical-align: middle;
