@@ -45,3 +45,13 @@
 .navbar-btn:hover{
   transform: scale(1.1);
 }
+
+#icon{
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#brand{
+  vertical-align: middle;
+}

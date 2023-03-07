@@ -91,12 +91,12 @@ useEffect(()=>{
                 <div className='col-md-6 text-center'>
                     <img className="img-fluid" id="phone" src={phone} alt="Graphic of a simple version of the phone view of Code Culture"/>
                 </div>
-                <div className='col-md-6 my-auto'>
-                <h1><span className='pink'>&#60;h1&#62;</span>Community<span className='pink'>&#60;/h1&#62;</span></h1>
+                <div className='col-md-6 my-auto' id="info-box">
+                <h1 className='info-title'><span className='pink'>&#60;h1&#62;</span>Community<span className='pink'>&#60;/h1&#62;</span></h1>
                 <p className='text'>Find content and community for web devs</p>
-                <h1><span className='pink'>&#60;h1&#62;</span>Resources<span className='pink'>&#60;/h1&#62;</span></h1>
+                <h1 className='info-title'><span className='pink'>&#60;h1&#62;</span>Resources<span className='pink'>&#60;/h1&#62;</span></h1>
                 <p className='text'>Discover different places to learn about website development</p>
-                <h1><span className='pink'>&#60;h1&#62;</span>Docs<span className='pink'>&#60;/h1&#62;</span></h1>
+                <h1 className='info-title'><span className='pink'>&#60;h1&#62;</span>Docs<span className='pink'>&#60;/h1&#62;</span></h1>
                 <p className='text'>Get directions to documentation for all our favorite technologies</p>
                 </div>
             </div>

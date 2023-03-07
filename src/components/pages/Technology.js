@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import techTypes from '../../assets/tech.json'
 import "../../styles/technology.css";
 import greenMic from "../../assets/imgs/green-mic.png"
@@ -48,6 +49,10 @@ export default function Technology(props){
             document.getElementById("navbar").style.top = "0px";
         }
         }
+
+        useEffect(() => {
+            window.scrollTo(0, 0)
+          }, [])
 
     return(
         <div className={wantedTech[0].type}>

@@ -11,3 +11,10 @@
 #footer h2{
     font-family: Rubik;
 }
+
+@media (max-width: 768px) {
+    #footer img{
+        margin-bottom: 20px;
+        height: 5vh;
+    }
+}

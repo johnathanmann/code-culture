@@ -8,7 +8,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
+import icon from "../assets/imgs/cc-logo.png";
 
 
 import "../styles/styles.css";
@@ -57,7 +57,7 @@ export default function Culture() {
     <div>
       <Navbar expand="lg" id="navbar">
       <Container>
-      <Navbar.Brand><button className="navbar-btn" onClick={()=> handlePageChange('Home')}>Code Culture</button></Navbar.Brand>
+      <Navbar.Brand><img id="icon" src={icon} alt="Code culture logo which is the letter C inside a larger letter C"/><button className="navbar-btn" onClick={()=> handlePageChange('Home')}><span id="brand">Code Culture</span></button></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse  className="justify-content-end" id="basic-navbar-nav">
           <Nav >
