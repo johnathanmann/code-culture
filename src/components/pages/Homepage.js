@@ -1,7 +1,6 @@
-import {react, useEffect, useState} from 'react';
+import { useEffect, useState} from 'react';
 import "../../styles/homepage.css";
 import phone from "../../assets/imgs/phone.png";
-import jQuery from 'jquery';
 
 export default function Homepage({handlePageChange}){
 const [currentTime, setCurrentTime] = useState();

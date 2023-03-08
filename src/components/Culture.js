@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Footer from './Footer'
 import Home from './pages/Homepage';
 import Technology from './pages/Technology';
+import About from './pages/About';
+import Community from './pages/Community';
 import techTypes from '../assets/tech.json'
 
 import Nav from 'react-bootstrap/Nav';
@@ -32,6 +34,12 @@ export default function Culture() {
     if (currentPage === 'Technology') {
       return <Technology tech={currentTech.tech}/>;
     }
+    if (currentPage === 'About') {
+      return <About handlePageChange={handlePageChange}/>;
+    }
+    if (currentPage === 'Community') {
+      return <Community handlePageChange={handlePageChange}/>;
+    }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -51,8 +59,6 @@ export default function Culture() {
     return i.type ===  "JavaScript-Library";
   });
 
-
-
   return (
     <div>
       <Navbar expand="lg" id="navbar">
@@ -61,6 +67,8 @@ export default function Culture() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse  className="justify-content-end" id="basic-navbar-nav">
           <Nav >
+          <Nav.Link><button className="navbar-btn" onClick={()=> handlePageChange('About')}>About</button></Nav.Link>
+          <Nav.Link><button className="navbar-btn" onClick={()=> handlePageChange('Community')}>Community</button></Nav.Link>
           <NavDropdown title="Languages" id="basic-nav-dropdown">
           {languages.map((language, index)=>{
             return <NavDropdown.Item><button className="navbar-btn" onClick={()=> techPageChange(languages[index].name)}>{languages[index].name}</button></NavDropdown.Item>
