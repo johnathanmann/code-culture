@@ -72,3 +72,9 @@
 .CSS-Framework .description {
     background: var(--yellow);
 }
+
+@media (max-width: 769px) {
+    .tech-link{
+        width: 80vw;
+    }
+}
