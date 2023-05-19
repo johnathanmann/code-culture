@@ -1,18 +1,10 @@
 import { useEffect } from 'react';
 import techTypes from '../../assets/tech.json'
 import "../../styles/technology.css";
-import greenMic from "../../assets/imgs/green-mic.png"
-import orangeMic from "../../assets/imgs/orange-mic.png"
-import yellowMic from "../../assets/imgs/yellow-mic.png"
-import greenPlay from "../../assets/imgs/green-play.png"
-import orangePlay from "../../assets/imgs/orange-play.png"
-import yellowPlay from "../../assets/imgs/yellow-play.png"
-import greenArticle from "../../assets/imgs/green-article.png"
-import orangeArticle from "../../assets/imgs/orange-article.png"
-import yellowArticle from "../../assets/imgs/yellow-article.png"
-var microphone;
-var play;
-var article;
+import microphone from "../../assets/imgs/microphone.png";
+import play from "../../assets/imgs/play.png";
+import article from "../../assets/imgs/article.png";
+let icons = {microphone, article, play};
 
 export default function Technology(props){
 
@@ -21,26 +13,6 @@ export default function Technology(props){
     const wantedTech = techTypes.filter(function(i) {
         return i.name === techName;
       });
-
-    if(wantedTech[0].type === "Language"){
-        microphone = orangeMic;
-        play = orangePlay;
-        article = orangeArticle;
-    }
-
-    if(wantedTech[0].type === "JavaScript-Library"){
-        microphone = greenMic;
-        play = greenPlay;
-        article = greenArticle;
-    }
-
-    if(wantedTech[0].type === "CSS-Framework"){
-        microphone = yellowMic;
-        play = yellowPlay;
-        article = yellowArticle;
-    }
-
-    let icons = {microphone, article, play};
 
       window.onscroll = function() {scrollFunction()};
 
@@ -77,7 +49,7 @@ export default function Technology(props){
                     <div id='links'>
                         {links.map((link, index)=>{
                             return <div className='tech-link'>
-                            <img className="img-fluid" src={icons[links[index].type]}/> <a className='link-type' target="_blank" rel="noreferrer" href={links[index].href}>{links[index].name}</a>
+                            <img className="img-fluid" alt={icons[links[index].type]} src={icons[links[index].type]}/> <a className='link-type' target="_blank" rel="noreferrer" href={links[index].href}>{links[index].name}</a>
                         </div>})}
                     </div>
                 </section>

@@ -37,16 +37,15 @@
 }
 
 .tech-link img{
-    height: 100px;
+    height: 30px;
     vertical-align: middle;
 }
 
 .tech-link a, .tech-link a:hover{
     all: unset;
-    font-size: 35px;
+    font-size: 25px;
     vertical-align: middle;
-    color: rgb(97, 97, 97);
-    font-family: Roboto-bold;
+    color: #616161;
 }
 
 .Language .header{
