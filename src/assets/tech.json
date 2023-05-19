@@ -7,7 +7,18 @@
         "description": "HTML (HyperText Markup Language) is the scripting language used to display content in the web browser. HTML uses a series of elements to tell the browser how to structure the desired content and its meaning. These elements work by wrapping and enclosing content. Wrapping a phrase in an <h1> tag will create a large heading while a <p> tag will create smaller paragraph style text. You're even reading a <p> tag right now! Currently the web uses HTML5.",
         "podcast": "",
         "article": "",
-        "video": ""
+        "video": "",
+        "links":[
+            {
+                "name": "adsds",
+                "link": "ffdfdf",
+                "type": "microphone"
+            },{
+                "name": "ddddd",
+                "link": "ffdfdf",
+                "type": "article"
+            }
+        ]
     },
     {
         "name": "CSS",

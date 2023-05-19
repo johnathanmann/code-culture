@@ -40,6 +40,8 @@ export default function Technology(props){
         article = yellowArticle;
     }
 
+    let icons = {microphone, article, play};
+
       window.onscroll = function() {scrollFunction()};
 
         function scrollFunction() {
@@ -53,7 +55,9 @@ export default function Technology(props){
         useEffect(() => {
             window.scrollTo(0, 0)
           }, [])
-
+        
+        var links = wantedTech[0].links;
+        console.log(wantedTech[0].links[0])
     return(
     <article className='container'>
         <div className={wantedTech[0].type}>
@@ -70,17 +74,12 @@ export default function Technology(props){
                 </section>
                 <section id="learn">
                 <h1 className='header text-center'>Learn More</h1>
-                <div id='links'>
-                    <div className='tech-link'>
-                        <img className="img-fluid" alt="Article icon" src={article}/> <a className='link-type' target="_blank" rel="noreferrer" href={wantedTech[0].article}>Article</a>
+                    <div id='links'>
+                        {links.map((link, index)=>{
+                            return <div className='tech-link'>
+                            <img className="img-fluid" src={icons[links[index].type]}/> <a className='link-type' target="_blank" rel="noreferrer" href={links[index].href}>{links[index].name}</a>
+                        </div>})}
                     </div>
-                    <div className='tech-link'>
-                        <img className="img-fluid" alt="Microphone icon" src={microphone}/> <a className='link-type' target="_blank" rel="noreferrer" href={wantedTech[0].podcast}>Podcast</a>
-                    </div>
-                    <div className='tech-link'>
-                        <img className="img-fluid" alt="Video play icon" src={play}/> <a className='link-type' target="_blank" rel="noreferrer" href={wantedTech[0].video}>Video</a>
-                    </div>
-                </div>
                 </section>
             </div>
         </div>
