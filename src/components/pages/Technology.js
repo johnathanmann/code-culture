@@ -55,19 +55,20 @@ export default function Technology(props){
           }, [])
 
     return(
+    <article className='container'>
         <div className={wantedTech[0].type}>
             <div id="technology">
-                <div className='row'>
-                    <div className='col-lg-6 '>
+                <section className='row'>
+                    <header className='col-lg-6 '>
                     <h1 className='header' id="tech-name">{wantedTech[0].name}</h1>
                         <p className='subheading text '>Initial Release: {wantedTech[0].release}</p>
                         <p><a className='subheading text' target="_blank" rel="noreferrer" href={wantedTech[0].docs}>Documentation</a></p>
-                    </div>
-                    <div className='col-lg-6'>
+                    </header>
+                    <article className='col-lg-6'>
                         <p className='description'>{wantedTech[0].description}</p>
-                    </div>
-                </div>
-                <div id="learn">
+                    </article>
+                </section>
+                <section id="learn">
                 <h1 className='header text-center'>Learn More</h1>
                 <div id='links'>
                     <div className='tech-link'>
@@ -80,9 +81,10 @@ export default function Technology(props){
                         <img className="img-fluid" alt="Video play icon" src={play}/> <a className='link-type' target="_blank" rel="noreferrer" href={wantedTech[0].video}>Video</a>
                     </div>
                 </div>
-                </div>
+                </section>
             </div>
         </div>
+    </article>
     )
     
 }
